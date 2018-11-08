@@ -12,6 +12,13 @@ This can lead your game into one of following problem:
 If you don't care about it because "it's just a game" it's fine, but maybe somebody from your friends care about that because he/she likes board games. That's why this application was made. :)
 
 Have a good day!
+# How to use it?
+
+Go to page: [https://bajtas.github.io/whos-turn/](https://bajtas.github.io/whos-turn/)
+
+1. Fill up app with names of players that you are playing with.
+2. Start the game.
+3. To end current player turn use 'space' key on your keyboard.
 
 # Screenshots
 
