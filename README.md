@@ -15,3 +15,6 @@ Have a good day!
 
 # Screenshots
 
+![Alt text](/images/home.jpg?raw=true "Home page")
+
+![Alt text](/images/1.jpg?raw=true "App page")
