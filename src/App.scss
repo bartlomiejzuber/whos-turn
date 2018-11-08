@@ -1,0 +1,200 @@
+@import "../node_modules/breakpoint-sass/stylesheets/_breakpoint.scss";
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i");
+
+body {
+  margin: 0px;
+  min-height: 100vh;
+  background-color: #eaf27c;
+  font-family: "Roboto", sans-serif;
+
+  #root {
+    min-height: 100vh;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  .App {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .turn,
+    .time {
+      text-align: center;
+      font-family: "Pacifico", cursive;
+      font-size: 3em;
+
+      flex: 1;
+      flex-basis: 100%;
+    }
+
+    .avg-time {
+      text-align: center;
+      font-family: "Pacifico", cursive;
+      font-size: 1.5em;
+      flex: 1;
+      flex-basis: 100%;
+    }
+
+    .App-header {
+      text-align: center;
+      font-family: "Pacifico", cursive;
+      font-size: 7em;
+      flex: 1;
+      flex-basis: 100%;
+      align-self: flex-end;
+
+      &.start {
+        align-self: auto;
+      }
+
+      @include breakpoint(0px 500px) {
+        font-size: 2em;
+      }
+
+      @include breakpoint(500px 800px) {
+        font-size: 4em;
+      }
+    }
+
+    .current-palayer-section {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-basis: 100%;
+      flex: 1;
+
+      .player-name {
+        text-align: center;
+        font-family: "Pacifico", cursive;
+        font-size: 5em;
+
+        flex: 1;
+        flex-basis: 100%;
+      }
+    }
+
+    .main-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 1%;
+      flex-wrap: wrap;
+      flex-basis: 100%;
+
+      .description {
+        font-size: 1.3em;
+        flex: 1 1 100%;
+        text-align: center;
+        align-self: flex-start;
+      }
+
+      .use-it {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 1.4em;
+        flex: 1 1 100%;
+      }
+
+      .player-list {
+        margin-top: 50px;
+        display: inline-block;
+        text-align: left;
+
+        .player-list--name {
+          font-family: "Pacifico", cursive;
+          font-size: 2em;
+          display: flex;
+
+          label {
+            flex: 1;
+          }
+
+          button {
+            -webkit-appearance: none;
+            background-color: transparent;
+            border-radius: 100%;
+            width: 50px;
+            height: 50px;
+
+            color: #000;
+            font-size: 0.8em;
+            outline: none;
+            border: 1px solid #000;
+
+            &:hover {
+              color: #fff;
+              background-color: #000;
+            }
+          }
+        }
+
+        .add-new-player {
+          margin-top: 20px;
+          .player-name {
+            font-family: "Pacifico", cursive;
+            font-size: 2em;
+            -webkit-appearance: none;
+            background-color: transparent;
+            border: 0px;
+            border-bottom: 2px solid;
+            border-color: #000;
+            outline: none !important;
+          }
+
+          label.player-name-label {
+            display: block;
+          }
+
+          button {
+            -webkit-appearance: none;
+            background-color: transparent;
+            border-radius: 100%;
+            width: 50px;
+            height: 50px;
+            position: relative;
+
+            color: #000;
+            font-size: 2em;
+            outline: none;
+            border: 1px solid #000;
+
+            &:hover {
+              color: #fff;
+              background-color: #000;
+            }
+          }
+        }
+
+        .start-section {
+          display: flex;
+          justify-content: center;
+          .start-btn {
+            -webkit-appearance: none;
+            background-color: transparent;
+            margin: 20px 0px;
+            padding: 10px 45px;
+
+            color: #000;
+            font-size: 0.8em;
+            outline: none;
+            border: 1px solid #000;
+
+            transform: translate(-20px);
+
+            &:hover {
+              color: #fff;
+              background-color: #000;
+            }
+          }
+        }
+      }
+    }
+  }
+}
