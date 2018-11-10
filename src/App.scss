@@ -100,6 +100,10 @@ body {
         text-align: center;
         font-size: 1.4em;
         flex: 1 1 100%;
+
+        @include breakpoint(0px 500px) {
+          font-size: 1.2em;
+        }
       }
 
       .player-list {
@@ -109,6 +113,10 @@ body {
 
         .player-list--name {
           font-family: "Pacifico", cursive;
+
+          @include breakpoint(0px 500px) {
+            font-size: 1.2em;
+          }
           font-size: 2em;
           display: flex;
 
@@ -139,6 +147,13 @@ body {
           margin-top: 20px;
           .player-name {
             font-family: "Pacifico", cursive;
+            @include breakpoint(0px 600px) {
+              font-size: 1.2em;
+            }
+
+            @include breakpoint(0px 400px) {
+              font-size: 0.8em;
+            }
             font-size: 2em;
             -webkit-appearance: none;
             background-color: transparent;
