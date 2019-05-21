@@ -14,7 +14,7 @@ If you don't care about it because "it's just a game" it's fine, but may somebod
 Have a good day!
 # How to use it?
 
-Go to page: [https://bartlomiejzuber.github.io/whos-turn/](https://bajtas.github.io/whos-turn/)
+Go to page: [https://bartlomiejzuber.github.io/whos-turn/](https://bartlomiejzuber.github.io/whos-turn/)
 
 1. Fill up app with names of players that you are playing with.
 2. Start the game.
