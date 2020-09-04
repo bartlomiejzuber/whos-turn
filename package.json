@@ -6,7 +6,7 @@
     "breakpoint-sass": "^2.7.1",
     "moment": "^2.22.2",
     "moment-duration-format": "^2.2.2",
-    "node-sass": "^4.10.0",
+    "node-sass": "^4.13.1",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-hotkeys": "^1.1.4",
